@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  mysql_db: 'myappdb'
+  mysql_host: 'mysql-svc'
+  mysql_user: 'root'
